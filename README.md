@@ -1,4 +1,4 @@
-# Superchain Starter Kit
+# Superchain Starter Kit (SMARTKEY AI /SMRT)
 
 A lightweight, focused starting point for prototyping/building on the Superchain, featuring
 
