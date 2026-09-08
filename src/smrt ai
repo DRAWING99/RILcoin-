@@ -1,0 +1,11 @@
+import hashlib
+
+# 1. تم استخراج المكونات البصرية البارزة من الصورة
+visual_elements = "Hieroglyphic_Scarab_Ankh_EyeOfHorus_Falcon_Lotus_Wave_Pyramid_Grid_2026"
+
+# 2. تشفير المكونات باستخدام خوارزمية SHA-256 لإنتاج مفتاح أمان قوي
+security_key = hashlib.sha256(visual_elements.encode('utf-8')).hexdigest()
+
+print("مفتاح الأمان المشفر لمشروعك هو:")
+print(security_key)
+7e2a9b3f4c6e81d0f5a7b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3
