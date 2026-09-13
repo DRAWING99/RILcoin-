@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Button } from '@/components/ui/button';
 import {
   Card,
@@ -345,6 +346,7 @@ function App() {
     <div className="flex gap-4">
       <SourceChain />
       <DestinationChain />
+      <Analytics />
     </div>
   );
 }
