@@ -23,6 +23,7 @@ import { sortBy } from '@/lib/utils';
 import { encodeFunctionData } from 'viem';
 import { crossChainCounterAbi } from '@/abi/crossChainCounterAbi';
 import { crossChainCounterIncrementerAbi } from '@/abi/crossChainCounterIncrementerAbi';
+import { Analytics } from '@vercel/analytics/react';
 
 // ============================================================================
 // Configuration
@@ -345,6 +346,7 @@ function App() {
     <div className="flex gap-4">
       <SourceChain />
       <DestinationChain />
+      <Analytics />
     </div>
   );
 }
