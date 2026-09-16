@@ -40,3 +40,24 @@ git add .
 git commit -m "إضافة مفتاح الأمان وإعدادات الخلفية"
 git branch -M main
 git push -u origin main
+{
+  "contractAddress": "0x565DD85616A1Dc80140DecD41864a2A5FD3ad72d",
+  "standardJsonInput": {
+    "language": "Vyper",
+    "sources": {
+      "contracts/Contract.vy": {
+        "content": "# @version 0.2.11\n"
+      }
+    },
+    "settings": {
+      "outputSelection": {
+        "*": [
+          "abi",
+          "metadata",
+          "evm.bytecode",
+          "evm.sourceMap"
+        ]
+      }
+    }
+  }
+}
